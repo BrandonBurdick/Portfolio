@@ -5,8 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mr.Burdick's Professional Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/background-styles.css">
+    <link rel="stylesheet" href="./assets/css/grid-styles.css">
+    <link rel="stylesheet" href="./assets/css/flexbox-styles.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Brandon's Portfolio</h1>
+    </header>
+    <nav></nav>
+    <main>
+        <section>
+                <h2>About Me</h2>
+                <div id="AboutMe">
+                    <figure class="flexbox-item flexbox-item-1">
+                        <img src="./assets/images/Me.jpg" alt="Picture of Brandon" id="MyPicture">
+                    </figure>
+                    <article class="flexbox-item flexbox-item-2">
+                        <p>
+                        Hi my name is Brandon. I live in Gastonia, North Carolina, but I'm originally from Florida. 
+                        I have a background in IT and management.  I'm currently working for Amazon in logistics. 
+                        My goals are to begin a career in IT as a Web Developer or Software Designer.
+                        </p>
+                    </article>
+                </div>
+        </section>
+        <section>
+            <h2>My Projects</h2>
+            <div class="container">
+                <article class="grid-item grid-item-1">
+                    <figure>
+                        <a href="./assets/images/HTML_Example.png" target="_blank">
+                            <img src="./assets/images/HTML_Example.png" alt="Thumbnail of HTML_Example site" class="th">
+                        </a>
+                    </figure>
+                    <span>This was the first HTML work I did in class. Some initial use of HTML and CSS here. </span>
+                </article>
+                <article class="grid-item grid-item-2">
+                    <figure>
+                        <a href="./assets/images/assignmentone.png" target="_blank">
+                            <img src="./assets/images/assignmentone.png" alt="Thumbnail of first in-class assignment" class="th">
+                        </a>
+                    </figure>
+                    <span>This was the first assignment working with HTML and CSS given in class where we worked completely independently to mirror the look of another site using our own HTML and CSS code.</span>
+                </article>
+                <article class="grid-item grid-item-3">
+                    <figure>
+                        <a href="./assets/images/repo_example.png" target="_blank">
+                            <img src="./assets/images/repo_example.png" alt="Thumbnail of Repo_example" class="th">
+                        </a>
+                    </figure>
+                    <span>This has more HTML and CSS work. Here I utilized grid styles and flexboxes to organize elements on the page.</span>
+                </article>
+            </div>
+        </section>
+        </main>
+        <footer class="footer">
+            <span class="flexbox-item2 flexbox-item-a">Contact Me</span>
+                <ul class="flexbox-item2 flexbox-item-b">
+                    <li class="flexbox-item3 flexbox-item-i">Email: <a href="mailto:bandrwow@gmail.com">bandrwow@gmail.com</a></li>
+                    <li class="flexbox-item3 flexbox-item-ii">Github: <a href="https://github.com/BrandonBurdick" target="_blank">BrandonBurdick</a></li>
+                    <li class="flexbox-item3 flexbox-item-iii">LinkedIN: <a href="https://www.linkedin.com/in/brandon-burdick-252981276" target="_blank">Brandon Burdick</a> </li>
+                </ul>
+        </footer>
 </body>
 </html>
