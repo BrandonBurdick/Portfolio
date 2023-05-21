@@ -1,6 +1,8 @@
 .container {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid: 300px / 1fr 1fr 1fr;
+    grid-auto-rows:300px;
     width:875px;
+    justify-content:center;
 }
 
