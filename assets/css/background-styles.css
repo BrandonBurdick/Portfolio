@@ -4,13 +4,6 @@
     margin-left:20px;
 }
 
-html {
-    background:url('../images/wallpaper-mania.com_High_resolution_wallpaper_background_ID_77701704374.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-attachment:fixed;
-}
-
 #MyPicture {
     width:275px;
     height:auto;
