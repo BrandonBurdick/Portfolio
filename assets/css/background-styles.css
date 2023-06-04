@@ -10,8 +10,9 @@
 
 body {
     background:white;
-    margin-left:25%;
-    margin-right:25%;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 h1 {
@@ -53,7 +54,7 @@ ul {
     list-style-type:none;
     margin:0;
     padding:0;
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 
 
@@ -69,12 +70,12 @@ h2 {
 
 
 .me {
-    width:900px;
+    width:auto;
     margin-top:100px;
 }
 
 #myPicture {
-    width:275px;
+    max-width:275px;
     height:auto;
     border-radius: 10rem;
 }
